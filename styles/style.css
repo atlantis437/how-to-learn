@@ -218,22 +218,62 @@
 }
 
 .feynman_link {
-
-}
-
-.feynman_image {
-  position: relative;
-  width: 867px;
-  height: 637px;
-  background-image: url(../images/feynman.png);
-  bottom: 0;
-  left: 0;
-  z-index: 2;
+  position: absolute;
+  top: 445px;
+  right: 38px;
   border: 2px solid red;
-  
-
+}
+.feynman_link_text {
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
+.kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 90px 0;
+  margin: 0px auto;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+.title_theme_dark {
+  width: 60%;
+  z-index: 2;
+}
+
+.title_text_theme_dark {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.subtitle_theme_dark {
+  padding-top: 20px;
+  width: 60%;
+  z-index: 2;
+}
+
+.subtitle_text_theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+
+.table_theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content:space-between;
+  z-index: 2;
+  }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -241,4 +281,14 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
+}
+
+.triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  z-index: 1;
+
 }
