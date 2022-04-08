@@ -260,8 +260,7 @@
 }
 
 .section__title_theme_dark {
-  width: 60%;
-  z-index: 2;
+  width: 60%;  
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
