@@ -62,6 +62,12 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+/* для практики */
+.header__link:hover {
+  color: #ff6666;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0px;
@@ -236,6 +242,11 @@
   text-decoration: none;  
 }
 
+/* для практики */
+.feynman__link:hover {
+  color: #ff6666; 
+}
+
 .kaufman {
   display: flex;
   align-items: center;
@@ -395,4 +406,9 @@
   padding-right: 10px;
   height: 16px;
   width: 16px;
+}
+
+/* для практики */
+.footer__column_link:hover {
+  color: #ff6666;
 }
