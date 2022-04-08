@@ -35,7 +35,7 @@
 
 .header__title {
   display: flex;
-  align-items: center;  
+  align-items: center;
   max-width: 730px;
   width: 100%;
   margin-left: 64px;
@@ -50,7 +50,7 @@
   position: absolute;
   width: 388px;
   left: 64px;
-  bottom: 30px;  
+  bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -272,7 +272,7 @@
 
 .section__subtitle_theme_dark {
   padding-top: 20px;
-  width: 60%;  
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -335,7 +335,7 @@
 
 .footer__columns {  
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   width: 90%;  
   padding: 60px 0px 40px 0px; 
 }
