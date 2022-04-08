@@ -206,12 +206,11 @@
   background-image: url(../images/feynman.png);
   background-position: left bottom;
   background-repeat: no-repeat;
-  margin: 0;
+  margin: 0;  
 }
 
 .feynman__title {
-  padding: 100px 0 0 0;
-  z-index: 3;
+  padding: 100px 0 0 0;  
   max-width: 648px;
   width: 100%;
   line-height: 1.15;
@@ -221,14 +220,13 @@
   margin: 0;  
 }
 
-.feynman__subtitle {
-  z-index: 3;
+.feynman__subtitle {  
   padding-top: 70px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-  margin: 0;  
+  margin: 0;
 }
 
 .feynman__link {
@@ -239,12 +237,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 /* для практики */
 .feynman__link:hover {
-  color: #ff6666; 
+  color: #ff6666;
 }
 
 .kaufman {
@@ -260,7 +258,7 @@
 }
 
 .section__title_theme_dark {
-  width: 60%;  
+  width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -295,7 +293,7 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;  
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -329,14 +327,14 @@
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  background-color: #1f1f1f;    
+  background-color: #1f1f1f;
 }
 
-.footer__columns {  
+.footer__columns {
   display: flex;
   justify-content: space-between;
-  width: 90%;  
-  padding: 60px 0px 40px 0px; 
+  width: 90%;
+  padding: 60px 0px 40px 0px;
 }
 
 .footer__column {
@@ -345,8 +343,8 @@
   margin: 0;
 }
 
-.footer__column_content_copiright {  
-  flex-basis: 711px;  
+.footer__column_content_copiright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -390,7 +388,7 @@
   flex-direction: column;
 }
 
-.footer__column_link {  
+.footer__column_link {
   margin: 0;
   padding: 0%;
   list-style-type: none;
@@ -398,7 +396,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .footer__social-icon {
