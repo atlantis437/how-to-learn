@@ -56,7 +56,6 @@
   z-index: 2;
 }
 
-
 .header__subtitle {
   position: absolute;
   width: 388px;
@@ -99,9 +98,6 @@
   z-index: -1;
 }
 
-.header__square-pic {
-  animation: rotation 20s linear infinite;
-}
 
 .content {
   display: flex;
@@ -437,4 +433,8 @@
 /* для практики */
 .footer__column-link:hover {
   color: #ff6666;
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }
