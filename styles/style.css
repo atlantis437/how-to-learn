@@ -105,13 +105,14 @@
 
 .description {
   display: flex;
-  margin: auto;
-  width: 80%;
+  
 }
   
 .two-columns {
   display: flex;
   padding-top: 100px;
+  width: 80%;
+  margin: auto;  
   justify-content: space-between;  
 }
   
@@ -237,8 +238,8 @@
 }
 
 .video__iframes {
-  margin: 0 auto;
-  padding-top: 50px;
+  margin: 0 auto -60px;
+  padding-top: 50px;  
   position: relative;
   z-index: 1;
 }
@@ -253,11 +254,8 @@
 
 .oakley {
   display: flex; 
-  width: 80%;
   background-color: #f2f2f2;
-  padding-top: 60px;
-  margin: 0 auto;
-
+  padding-top: 60px;  
 }
 
 .feynman {
@@ -370,6 +368,85 @@
   margin: 0;  
 }
 
+.khan {
+  display: flex; 
+  background-color: #f2f2f2;
+  padding-top: 105px;  
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto; 
+}
+
+.khan__author {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  margin: 0;
+  padding: 50px 0 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+}
+
+.khan__quote-autor {
+  margin: 0;
+  padding: 36px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-autor-subline {
+  margin: 0;
+  padding: 10px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 68px;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.khan__buy-link {
+  margin: 0;
+  padding-left: 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.khan__buy-link:hover {
+  opacity: .5;
+  transition: .5s ease-in;
+}
 
 .kaufman {
   display: flex;
@@ -444,6 +521,29 @@
   top: 0px;
   right: -210px;
   z-index: -1;
+}
+
+.resources {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  padding-top: 80px;
+  padding: auto 0;
+}
+
+.resources__link:hover {
+  opacity: .5;
+  transition: .5s ease-in;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
@@ -531,9 +631,9 @@
   width: 16px;
 }
 
-/* для практики */
 .footer__column-link:hover {
-  color: #ff6666;
+  opacity: .5;
+  transition: .5s ease-in;
 }
 
 .rotation {
